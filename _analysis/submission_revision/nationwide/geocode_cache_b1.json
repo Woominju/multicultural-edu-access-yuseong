@@ -1,0 +1,72 @@
+{
+ "경상남도 창녕군 남지읍 복지관길 15": [],
+ "경상남도 창녕군 창녕읍 창녕대로 172": [
+  {
+   "place_id": 271078539,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1144258083,
+   "lat": "35.5299860",
+   "lon": "128.5030966",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "secondary",
+   "name": "창녕대로",
+   "display_name": "창녕대로, 창녕읍, 창녕군, 경상남도, 50328, 대한민국",
+   "address": {
+    "road": "창녕대로",
+    "town": "창녕읍",
+    "county": "창녕군",
+    "province": "경상남도",
+    "ISO3166-2-lvl4": "KR-48",
+    "postcode": "50328",
+    "country": "대한민국",
+    "country_code": "kr"
+   },
+   "boundingbox": [
+    "35.5297055",
+    "35.5302564",
+    "128.5029634",
+    "128.5032035"
+   ]
+  }
+ ],
+ "경상남도 하동군 하동읍 섬진강대로 2214": [
+  {
+   "place_id": 223245653,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 469745813,
+   "lat": "35.0812221",
+   "lon": "127.7265128",
+   "category": "highway",
+   "type": "primary",
+   "place_rank": 26,
+   "importance": 0.053370834668497714,
+   "addresstype": "primary",
+   "name": "섬진강대로",
+   "display_name": "섬진강대로, 하동읍, 하동군, 경상남도, 52326, 대한민국",
+   "address": {
+    "road": "섬진강대로",
+    "town": "하동읍",
+    "county": "하동군",
+    "province": "경상남도",
+    "ISO3166-2-lvl4": "KR-48",
+    "postcode": "52326",
+    "country": "대한민국",
+    "country_code": "kr"
+   },
+   "boundingbox": [
+    "35.0744432",
+    "35.0918777",
+    "127.7121030",
+    "127.7399875"
+   ]
+  }
+ ],
+ "경상남도 하동군 하동읍 경서대로 236": [],
+ "경상남도 합천군 합천읍 핫들2로 17": [],
+ "경상남도 합천군 합천읍 옥산로 96-7": []
+}

@@ -1,0 +1,31 @@
+{
+  "_comment": "전국 분석 설정. 대표지역 선정 규칙은 결과를 보기 전(2026-11-03 17:40 KST)에 고정했다. 결과를 본 뒤 바꾸지 말 것.",
+  "bigdata_root": "../..",
+  "previous_job": {
+    "status_file": "../execution_status.json",
+    "done_flag": "../logs/SUPERVISOR_DONE",
+    "pid_file": "../logs/supervisor.pid",
+    "required_steps": ["s01","s02","s03","s04","s05","s06","s07","s08","s09","s10","s11","s12","s13"],
+    "required_outputs": ["demand_map.png","facility_map.png","accessibility_map.png","candidate_comparison.csv","competition_proposal_draft.md","results/validation_checks.csv"],
+    "validation_file": "../results/validation_checks.csv"
+  },
+  "dataset_keywords": {
+    "family_program": ["가족센터", "가족센터프로그램", "건강가정", "다문화가족지원센터"],
+    "childcenter_nat": ["지역아동센터"],
+    "school": ["초중등학교", "학교위치", "초중등"],
+    "library": ["도서관"],
+    "open_facility": ["공공시설개방", "공공시설 개방", "개방정보", "공유누리", "개방시설"]
+  },
+  "exclude_name_patterns": ["유성구_지역아동센터_현황_기준"],
+  "selection_rule": {
+    "min_mc_children": 300,
+    "n_select": 4,
+    "always_include": ["25|유성구"],
+    "primary_metric_if_program_data": "확인된 다문화 아동 교육 프로그램 수 / 다문화가구 자녀 1,000명 (낮을수록 우선, 동률은 자녀 수 많은 순)",
+    "fallback_metric_if_no_program_data": "0~19세 인구 1,000명당 다문화가구 자녀 수(높을수록 우선) — '공급 미반영 잠정 선정'으로 표시"
+  },
+  "mclp": {"radii_m": [1000, 2000, 3000, 5000], "main_radius_m": 2000, "cell_m": 200, "min_candidates": 5},
+  "deadline_kst": "2026-11-06 00:00",
+  "poll_seconds": 60,
+  "stable_polls": 2
+}

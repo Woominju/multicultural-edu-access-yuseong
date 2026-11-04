@@ -1,0 +1,87 @@
+[
+  {
+    "key": "25|유성구",
+    "name": "대전광역시 유성구",
+    "state": "기존 유성구 심층분석 결과 연결(_analysis/candidate_comparison.csv)",
+    "prev_coverage_2km": 0.0977228557034114,
+    "n_dong": 13,
+    "dong_matched": 13,
+    "dong_blind": 0
+  },
+  {
+    "key": "21|강서구",
+    "name": "부산광역시 강서구",
+    "n_dong": 9,
+    "dong_matched": 9,
+    "dong_blind": 0,
+    "A_site_source": "없음",
+    "n_A_sites": 0,
+    "n_candidates": 83,
+    "state": "접근성·MCLP 수행(직선거리 예비분석) — 지역 내 확인된(게시된) 교육 프로그램 장소 없음 → 기존 포괄 0으로 계산",
+    "main": {
+      "radius_m": 2000,
+      "coverage_before": 0.0,
+      "best_candidate": "nan",
+      "best_type": "library",
+      "new_children": 151.36529807921352,
+      "coverage_after": 0.19455693840515875
+    }
+  },
+  {
+    "key": "38|창녕군",
+    "name": "경상남도 창녕군",
+    "n_dong": 14,
+    "dong_matched": 14,
+    "dong_blind": 0,
+    "A_site_source": "없음",
+    "n_A_sites": 0,
+    "n_candidates": 56,
+    "state": "접근성·MCLP 수행(직선거리 예비분석) — 지역 내 확인된(게시된) 교육 프로그램 장소 없음 → 기존 포괄 0으로 계산",
+    "main": {
+      "radius_m": 2000,
+      "coverage_before": 0.0,
+      "best_candidate": "nan",
+      "best_type": "school",
+      "new_children": 37.24212306402327,
+      "coverage_after": 0.058927409911429224
+    }
+  },
+  {
+    "key": "38|하동군",
+    "name": "경상남도 하동군",
+    "n_dong": 13,
+    "dong_matched": 13,
+    "dong_blind": 0,
+    "A_site_source": "없음",
+    "n_A_sites": 0,
+    "n_candidates": 62,
+    "state": "접근성·MCLP 수행(직선거리 예비분석) — 지역 내 확인된(게시된) 교육 프로그램 장소 없음 → 기존 포괄 0으로 계산",
+    "main": {
+      "radius_m": 2000,
+      "coverage_before": 0.0,
+      "best_candidate": "행복한지역아동센터",
+      "best_type": "childcenter_nat",
+      "new_children": 30.252966715667778,
+      "coverage_after": 0.08450549361918375
+    }
+  },
+  {
+    "key": "38|합천군",
+    "name": "경상남도 합천군",
+    "n_dong": 17,
+    "dong_matched": 16,
+    "dong_blind": 1,
+    "A_site_source": "없음",
+    "n_A_sites": 0,
+    "n_candidates": 76,
+    "state": "접근성·MCLP 수행(직선거리 예비분석) — 지역 내 확인된(게시된) 교육 프로그램 장소 없음 → 기존 포괄 0으로 계산",
+    "main": {
+      "radius_m": 2000,
+      "coverage_before": 0.0,
+      "best_candidate": "nan",
+      "best_type": "library",
+      "new_children": 16.894884657202077,
+      "coverage_after": 0.05575869523829068
+    }
+  }
+]

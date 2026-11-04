@@ -1,0 +1,26 @@
+{
+  "crs_source": "EPSG:5179",
+  "crs_used": "EPSG:5179 (Korea 2000 / Unified CS, m)",
+  "boundary_base_date": [
+    "20250630"
+  ],
+  "join_check": {
+    "boundary_only": [],
+    "stats_only": [],
+    "n_boundary": 13,
+    "n_stats": 13,
+    "dup_names_boundary": 0
+  },
+  "gu_population_2024": {
+    "pop_total_2024": 384024.0,
+    "age0_4_2024": 13394.0,
+    "age5_9_2024": 17424.0,
+    "age10_14_2024": 19196.0,
+    "age15_19_2024": 21384.0,
+    "households_2024": 165705.0,
+    "age0_19_2024": 71398.0
+  },
+  "dong_pop_sum_2024": 384024.0,
+  "yuseong_area_km2": 175.91399133793058,
+  "note": "인구(2024년 기준연도, 2025 경계로 집계)와 다문화 자녀(2025.11.1.)는 기준시점이 약 1년 다름 → 비율은 참고지표"
+}

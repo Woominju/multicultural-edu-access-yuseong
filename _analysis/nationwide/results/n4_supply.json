@@ -1,0 +1,238 @@
+{
+  "family_program": {
+    "rows_raw": 29627,
+    "columns_used": {
+      "program": "프로그램이름",
+      "target": "참여대상",
+      "desc": "행사내용",
+      "place": "진행장소",
+      "org": "센터정보",
+      "period": "행사기간",
+      "capacity": "정원"
+    },
+    "n_duplicates": 191,
+    "class_counts": {
+      "C_비교육·비대상": 17486,
+      "B_불확실": 6789,
+      "A_확정(다문화·아동·교육)": 4932,
+      "A2_교육비지원(장소 무관)": 229
+    },
+    "text_columns": [
+      "프로그램이름",
+      "참여대상",
+      "행사내용"
+    ],
+    "center_vs_place_key_mismatch": 784,
+    "location_basis": "운영장소",
+    "rows_kept": 29627,
+    "coord_ok": 0,
+    "assigned": 29424,
+    "assign_methods": {
+      "주소": 29396,
+      "센터정보(시도>시군구)": 28
+    },
+    "refdate": "컬럼 없음",
+    "state": "적재 완료",
+    "column_map": {
+      "program": "프로그램이름",
+      "target": "참여대상",
+      "desc": "행사내용",
+      "place": "진행장소",
+      "org": "센터정보",
+      "period": "행사기간",
+      "capacity": "정원"
+    }
+  },
+  "childcenter_nat": {
+    "rows_raw": 2570,
+    "columns_used": {
+      "name": "센터명",
+      "category": "운영기관유형",
+      "org": "센터명",
+      "capacity": "정원수",
+      "current": "현원수",
+      "lat": "위도",
+      "lon": "경도",
+      "road": "소재지도로명주소",
+      "jibun": "소재지지번주소",
+      "sido": "시도명",
+      "sgg": "시군구명",
+      "refdate": "데이터기준일자",
+      "provider": "제공기관명"
+    },
+    "n_duplicates": 80,
+    "rows_kept": 2490,
+    "coord_ok": 2490,
+    "assigned": 2490,
+    "assign_methods": {
+      "좌표": 2490
+    },
+    "refdate": {
+      "2026-09-18": 341,
+      "2026-08-05": 159,
+      "2026-08-10": 112,
+      "2025-12-18": 108,
+      "2025-11-27": 101
+    },
+    "state": "적재 완료",
+    "column_map": {
+      "name": "센터명",
+      "category": "운영기관유형",
+      "org": "센터명",
+      "capacity": "정원수",
+      "current": "현원수",
+      "lat": "위도",
+      "lon": "경도",
+      "road": "소재지도로명주소",
+      "jibun": "소재지지번주소",
+      "sido": "시도명",
+      "sgg": "시군구명",
+      "refdate": "데이터기준일자",
+      "provider": "제공기관명"
+    }
+  },
+  "school": {
+    "rows_raw": 12004,
+    "columns_used": {
+      "name": "학교명",
+      "category": "학교급구분",
+      "org": "제공기관명",
+      "lat": "위도",
+      "lon": "경도",
+      "road": "소재지도로명주소",
+      "jibun": "소재지지번주소",
+      "sido": "시도교육청코드",
+      "level": "학교급구분",
+      "status": "운영상태",
+      "refdate": "데이터기준일자",
+      "provider": "제공기관명"
+    },
+    "status_values": {
+      "운영": 12004
+    },
+    "dropped_closed": 0,
+    "n_duplicates": 2,
+    "rows_kept": 12002,
+    "coord_ok": 12002,
+    "assigned": 12002,
+    "assign_methods": {
+      "좌표": 12002
+    },
+    "refdate": {
+      "2026-10-01": 12002
+    },
+    "state": "적재 완료",
+    "column_map": {
+      "name": "학교명",
+      "category": "학교급구분",
+      "org": "제공기관명",
+      "lat": "위도",
+      "lon": "경도",
+      "road": "소재지도로명주소",
+      "jibun": "소재지지번주소",
+      "sido": "시도교육청코드",
+      "level": "학교급구분",
+      "status": "운영상태",
+      "refdate": "데이터기준일자",
+      "provider": "제공기관명"
+    }
+  },
+  "library": {
+    "rows_raw": 3657,
+    "columns_used": {
+      "name": "도서관명",
+      "category": "도서관유형",
+      "org": "운영기관명",
+      "lat": "위도",
+      "lon": "경도",
+      "road": "소재지도로명주소",
+      "sido": "시도명",
+      "sgg": "시군구명",
+      "ftype": "도서관유형",
+      "hours": "평일운영시작시각",
+      "refdate": "데이터기준일자",
+      "provider": "제공기관명"
+    },
+    "n_duplicates": 84,
+    "rows_kept": 3573,
+    "coord_ok": 3476,
+    "assigned": 3573,
+    "assign_methods": {
+      "좌표": 3475,
+      "주소": 98
+    },
+    "refdate": {
+      "2026-08-06": 179,
+      "2025-11-14": 113,
+      "2026-07-31": 106,
+      "2026-06-30": 105,
+      "2026-08-05": 102
+    },
+    "state": "적재 완료",
+    "column_map": {
+      "name": "도서관명",
+      "category": "도서관유형",
+      "org": "운영기관명",
+      "lat": "위도",
+      "lon": "경도",
+      "road": "소재지도로명주소",
+      "sido": "시도명",
+      "sgg": "시군구명",
+      "ftype": "도서관유형",
+      "hours": "평일운영시작시각",
+      "refdate": "데이터기준일자",
+      "provider": "제공기관명"
+    }
+  },
+  "open_facility": {
+    "rows_raw": 7333,
+    "columns_used": {
+      "name": "개방시설명",
+      "desc": "개방시설명",
+      "category": "개방시설유형구분",
+      "place": "개방장소명",
+      "org": "관리기관명",
+      "capacity": "수용가능인원수",
+      "lat": "위도",
+      "lon": "경도",
+      "road": "소재지도로명주소",
+      "jibun": "소재지지번주소",
+      "ftype": "개방시설유형구분",
+      "hours": "평일운영시작시각",
+      "refdate": "데이터기준일자",
+      "provider": "제공기관명"
+    },
+    "n_duplicates": 263,
+    "rows_kept": 7070,
+    "coord_ok": 7067,
+    "assigned": 7070,
+    "assign_methods": {
+      "좌표": 7063,
+      "주소": 7
+    },
+    "refdate": {
+      "2026-09-30": 357,
+      "2026-10-08": 354,
+      "2026-05-07": 318,
+      "2026-08-31": 293,
+      "2026-10-30": 265
+    },
+    "state": "적재 완료",
+    "column_map": {
+      "name": "개방시설명",
+      "desc": "개방시설명",
+      "category": "개방시설유형구분",
+      "place": "개방장소명",
+      "org": "관리기관명",
+      "capacity": "수용가능인원수",
+      "lat": "위도",
+      "lon": "경도",
+      "road": "소재지도로명주소",
+      "jibun": "소재지지번주소",
+      "ftype": "개방시설유형구분",
+      "hours": "평일운영시작시각",
+      "refdate": "데이터기준일자",
+      "provider": "제공기관명"
+    }
+  }
+}

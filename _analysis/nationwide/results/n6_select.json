@@ -1,0 +1,20 @@
+{
+  "basis": "primary",
+  "rule": {
+    "min_mc_children": 300,
+    "n_select": 4,
+    "always_include": [
+      "25|유성구"
+    ],
+    "primary_metric_if_program_data": "확인된 다문화 아동 교육 프로그램 수 / 다문화가구 자녀 1,000명 (낮을수록 우선, 동률은 자녀 수 많은 순)",
+    "fallback_metric_if_no_program_data": "0~19세 인구 1,000명당 다문화가구 자녀 수(높을수록 우선) — '공급 미반영 잠정 선정'으로 표시"
+  },
+  "n_eligible": 203,
+  "selected": [
+    "21|강서구",
+    "38|창녕군",
+    "38|하동군",
+    "38|합천군",
+    "25|유성구"
+  ]
+}

@@ -1,0 +1,17 @@
+# 원자료(공공데이터 포털 등에서 직접 내려받아 저장소 루트에 둔다)
+/*.csv
+/*.xlsx
+/*.zip
+/*.pdf
+/*.png
+# 실행 중 생기는 캐시·중간 산출물
+_analysis/work/
+_analysis/logs/
+_analysis/nationwide/runs/
+_analysis/nationwide/data_processed/
+_analysis/nationwide/status/
+_analysis/nationwide/logs/
+_analysis/execution_status.json
+__pycache__/
+*.pyc
+.venv/

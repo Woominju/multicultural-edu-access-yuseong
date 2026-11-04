@@ -1,0 +1,18 @@
+{
+  "n_basic_in_sheet": 229,
+  "n_basic_units_sgis": 229,
+  "sheet_only_keys": [],
+  "sgis_only_keys": [],
+  "national_mc_children_sheet": 312457.0,
+  "sum_basic_mc_children": 312457.0,
+  "blind_basic_mc_children": 0,
+  "sido_mismatch": {},
+  "dong_level_units": 229,
+  "dong_sum_equal_units": 189,
+  "dong_blind_cells_total": 61,
+  "source_typos_corrected": {
+    "부천기오정구": "부천시오정구",
+    "청순군": "청송군"
+  },
+  "sheet_units_without_sgis_code": []
+}

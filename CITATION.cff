@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "이 자료를 인용할 때는 아래 정보를 사용해 주세요."
+title: "다문화가정 아동 교육지원 접근성 분석: 전국 수요 진단과 대전 유성구 MCLP 기반 위성 학습거점 입지 제안"
+authors:
+  - family-names: "Woo"
+    given-names: "Minju"
+date-released: 2026-11-04
+repository-code: "https://github.com/Woominju/multicultural-edu-access-yuseong"
+license: MIT
+keywords:
+  - multicultural families
+  - education accessibility
+  - MCLP
+  - location optimization
+  - public data
+  - Yuseong-gu

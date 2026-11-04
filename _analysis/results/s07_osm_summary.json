@@ -1,0 +1,18 @@
+{
+  "source": "OpenStreetMap via Overpass API (ODbL)",
+  "osm_base_timestamp": "2026-05-31T22:37:44Z",
+  "fetched_at": "2026-11-03 17:12:17 KST",
+  "counts": {
+    "초등학교": 38,
+    "중학교": 20,
+    "고등학교": 16,
+    "행정복지센터": 13,
+    "공공도서관": 10,
+    "주민·평생학습시설": 2,
+    "작은도서관": 2
+  },
+  "buildings_total": 9276,
+  "buildings_used": 7559,
+  "buildings_error": "",
+  "caveat": "OSM은 자원봉사 기반 지도로 누락·오분류 가능. 학교는 학교알리미/표준데이터, 도서관은 공공도서관 현황으로 대조 필요."
+}

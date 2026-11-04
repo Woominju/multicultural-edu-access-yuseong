@@ -1,0 +1,6 @@
+﻿key,sido_nm,base_nm,mc_children,mc_children_per_1000_age0_19,fr_child_total,a7_12_sum_known,a13_15_sum_known,age0_19_2024,prog_A_confirmed,prog_B_uncertain,prog_A_per_1000_children,prog_unassigned,n_childcenter,n_library,n_open_facility,n_school_elem_mid,childcenter_capacity,mc_children_per_childcenter,selection_basis
+25|유성구,대전광역시,유성구,1500.0,21.01,1544.0,513.0,251.0,71398.0,26.0,13.0,17.33,203,22.0,25.0,25.0,65,637.0,68.2,primary
+21|강서구,부산광역시,강서구,778.0,24.49,791.0,278.0,131.0,31770.0,0.0,0.0,0.0,203,4.0,35.0,5.0,32,131.0,194.5,primary
+38|창녕군,경상남도,창녕군,632.0,110.01,652.0,228.0,139.0,5745.0,0.0,2.0,0.0,203,0.0,3.0,17.0,28,,,primary
+38|하동군,경상남도,하동군,358.0,111.98,384.0,108.0,106.0,3197.0,0.0,8.0,0.0,203,6.0,12.0,13.0,26,0.0,59.7,primary
+38|합천군,경상남도,합천군,307.0,106.15,345.0,94.0,77.0,2892.0,0.0,14.0,0.0,203,9.0,17.0,17.0,27,200.0,34.1,primary

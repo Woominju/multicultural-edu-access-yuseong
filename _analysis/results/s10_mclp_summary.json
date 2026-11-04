@@ -1,0 +1,5 @@
+{
+  "n_candidates": 107,
+  "elapsed_s": 12.4,
+  "compute": "CPU(NumPy) — 후보 수백 개×격자 2만 개 규모라 GPU 이점 없음"
+}

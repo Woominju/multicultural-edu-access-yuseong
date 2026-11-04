@@ -1,0 +1,24 @@
+{
+  "notes": [],
+  "columns": [
+    "key",
+    "sido_nm",
+    "base_nm",
+    "mc_children",
+    "mc_children_per_1000_age0_19",
+    "fr_child_total",
+    "a7_12_sum_known",
+    "a13_15_sum_known",
+    "age0_19_2024",
+    "prog_A_confirmed",
+    "prog_B_uncertain",
+    "prog_A_per_1000_children",
+    "prog_unassigned",
+    "n_childcenter",
+    "n_library",
+    "n_open_facility",
+    "n_school_elem_mid",
+    "childcenter_capacity",
+    "mc_children_per_childcenter"
+  ]
+}
